@@ -142,14 +142,14 @@ Widget characterInfoContainer(CharacterDetail character) {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            detailColumn('Пол:', character.gender),
-            detailColumn('Вид:', character.species),
+            detailColumn('Paul:', character.gender),
+            detailColumn('View:', character.species),
           ],
         ),
         const SizedBox(height: 16),
-        detailRowWithIcon('Место рождения:', character.origin.name),
+        detailRowWithIcon('Place of birth:', character.origin.name),
         const SizedBox(height: 16),
-        detailRowWithIcon('Местоположение:', character.location.name),
+        detailRowWithIcon('Location:', character.location.name),
       ],
     ),
   );
