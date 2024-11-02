@@ -142,8 +142,8 @@ Widget characterInfoContainer(CharacterDetail character) {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            detailColumn('Paul:', character.gender),
-            detailColumn('View:', character.species),
+            detailColumn('Sex:', character.gender),
+            detailColumn('Species:', character.species),
           ],
         ),
         const SizedBox(height: 16),
